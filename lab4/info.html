@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 id="titulo">Sobre Mi</h1>
+        <p class="subtitulo">Bienvenido a mi página web</p>
+    </header>
+    <main class="team-container">
+        <section class="team-member">
+            <img src="persona1.jpg" alt="mi foto" class="team-image">
+            <div class="team-content">
+                <h1 id="nombre">Eduardo Blanco</h1>
+                <h2>Biografia</h2>
+                <p>Soy Eduardo Blanco, un diseñador apasionado por crear experiencias visuales únicas que conectan con
+                    las personas. Mi enfoque está en la simplicidad, la funcionalidad y la estética, buscando siempre
+                    una solución creativa que resuene con cada proyecto.</p>
+
+                <p>Con 23 años de experiencia en el campo del diseño gráfico, diseño web y branding, he trabajado con
+                    una amplia variedad de clientes, desde pequeñas startups hasta grandes marcas. Mi objetivo es
+                    siempre comprender a fondo las necesidades de cada cliente para ofrecer un diseño que no solo se vea bien,
+                    sino que también sea efectivo en transmitir el mensaje adecuado.</p>
+            </div>
+        </section>
+        <section class="team-member">
+            <div class="team-content">
+                <h2>Valores profesionales</h2>
+                <h3>Creatividad y originalidad:</h3>
+                <p>Mi enfoque siempre busca la innovación, buscando soluciones visuales y funcionales únicas que
+                    impacten positivamente a quienes interactúan con mi trabajo. Como diseñador gráfico e ilustrador, me
+                    esfuerzo por crear piezas que no solo sean atractivas, sino que también cuenten una historia.</p>
+
+                <h3>Colaboración y comunicación:</h3>
+                <p>En el trabajo en equipo, mi capacidad de comunicación es clave. Me gusta compartir ideas, escuchar
+                    las opiniones de los demás y ajustar mis propuestas para lograr el mejor resultado posible. La
+                    colaboración me permite aprender de otros y aportar mi experiencia para que los proyectos sean un
+                    éxito colectivo.</p>
+            </div>
+            </div>
+        </section>
+        <section class="team-member">
+            <div class="team-content">
+                <h2>Redes sociales</h2>
+                <p>Bienvenidos a mis redes, un espacio donde comparto mi pasión por el diseño gráfico, la ilustración y
+                    la fotografía.</p>
+                <div class="social-media-links">
+
+                    <a href="https://www.facebook.com" target="_blank" class="social-icon"><i
+                            class="fab fa-facebook-f"></i></i></a><br>
+                    <a href="https://www.instagram.com" target="_blank" class="social-icon"><i
+                            class="fab fa-instagram"></i></a><br>
+                    <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i
+                            class="fab fa-linkedin-in"></i></a><br>
+                    <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+        <section class="team-member">
+            <div class="team-content">
+                <h2>Pasatiempos</h2>
+                <p>Mis pasatiempos favoritos son aprender y fortalecer mis habilidades como diseñador grafico, las
+                    cuales son:</p>
+                <ul>
+                    <li>Illustrator</li>
+                    <li>Photoshop</li>
+                    <li>InDesign</li>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Javascript</li>
+                </ul>
+            </div>
+        </section>
+        <section class="team-member">
+            <div class="team-content">
+                <h2>Tareas pendientes</h2>
+                <ol>
+                    <li>Crear logotipos</li>
+
+                    <li>Investigación de mercado</li>
+
+                    <li>Diseñar una página web</li>
+                </ol>
+            </div>
+        </section>
+        <section class="team-member">
+            <div class="team-content">
+                <h2>Actividades pendientes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Tarea</th>
+                            <th>Hora</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lunes</td>
+                            <td>Crear logotipos</td>
+                            <td>3:30 pm</td>
+                        </tr>
+                        <tr>
+                            <td>Miercoles</td>
+                            <td>Investigación de mercado</td>
+                            <td>4:00 pm</td>
+                        </tr>
+                        <tr>
+                            <td>Viernes</td>
+                            <td>Diseñar una página web</td>
+                            <td>5:30 pm</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </section>
+        <section class="team-member">
+            <div class="team-content">
+                <h2>Formulario de Contacto</h2>
+                <form id="contactForm">
+                    <label for="name">Nombre:</label><br>
+                    <input type="text" id="name" name="name"><br><br>
+
+                    <label for="reason">Motivo de contacto:</label><br>
+                    <input type="text" id="reason" name="reason"><br><br>
+
+                    <label for="email">Correo electrónico:</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" rows="4"></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <div style="text-align: center; margin-top: 20px; width: 15%;">
+            <button id="thankYouBtn">Salir</button>
+        </div>
+
+        <script src="funcion.js"></script>
+
+
+    </main>
+
+    <footer>
+        <p>Contacto: blacosancheze@gmail.com | Teléfono: 3003456989</p>
+    </footer>
+
+</body>
+
+</html>
