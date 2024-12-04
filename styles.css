@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+.header {
+    text-align: center;
+    background-color: #03966c;
+    color: #fff;
+    padding: 20px;
+  }
+  
+#titulo {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+.subtitulo {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+.team-member {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 95%;
+    max-width: 500em;
+    margin: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+.team-member:hover {
+    transform: translateY(-5px);
+  }
+  
+.team-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    
+  }
+
+  h2, #nombre, h3{
+    color: #03966c;
+}
+
+/* Estilos para los íconos de redes sociales */
+.social-media-links {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+
+.social-icon {
+    font-size: 20px;
+    color: #03966c;
+    text-decoration: none;
+    border: 2px solid #03966c;
+    border-radius: 100%;
+    padding: 10px;
+    width: 20px;
+    height: 20px;    
+}
+
+.social-icon:hover {
+    color: #ff6347;
+    transform: scale(1.2);
+    border: 2px solid #ff6347;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+ol li {
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    background-color: rgba(0, 0, 0, 0.1); 
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+  
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+  
+th {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+  
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+  
+input, select, textarea{
+    width: 30em;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #a6a4a4;
+    border-radius: 4px;
+}
+
+textarea{
+    max-width: 30em;
+}
+  
+button {
+    background-color: #03966c;
+    color: white;
+    padding: 10px;
+    margin: 23px;
+    width: 70%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+  
+button:hover {
+    background-color: #04d298;
+}
+
+
+
+footer{
+    background-color: #03966c;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
